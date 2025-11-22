@@ -23,11 +23,11 @@ using (var scope = app.Services.CreateScope())
     db.Database.EnsureCreated();
 }
 
-// ⭐ Swagger ATIVADO independentemente do ambiente (DEV ou PROD)
+//  Swagger ATIVADO independentemente do ambiente (DEV ou PROD)
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// ❗ deixe HTTPS redirection desativado para rodar no VS Code
+//  deixe HTTPS redirection desativado para rodar no VS Code
 // app.UseHttpsRedirection();
 
 app.MapControllers();
