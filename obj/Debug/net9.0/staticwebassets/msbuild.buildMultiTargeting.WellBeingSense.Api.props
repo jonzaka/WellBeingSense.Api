@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WellBeingSense.Api.props" />
+</Project>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "LhnhHrH7rc+oOzdvet1bs648DNotL+Wg1Dw7OeLEGjc=",
+  "Source": "WellBeingSense.Api",
+  "BasePath": "_content/WellBeingSense.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
