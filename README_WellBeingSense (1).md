@@ -69,10 +69,9 @@ Essas regras sao simplificadas, mas ilustram como a correlacao entre ambiente e 
 
 ```mermaid
 flowchart LR
-
-    U[Funcionario]:::actor --> API
-    S[Sensores IoT (simulados)]:::actor --> API
-    HR[Gestor / RH]:::actor --> Dashboard
+    U[Funcionario] --> API
+    S[Sensores IoT simulados] --> API
+    HR[Gestor / RH] --> DashCtrl
 
     subgraph API[WellBeingSense.API - ASP.NET Core]
         direction TB
@@ -89,18 +88,12 @@ flowchart LR
         end
     end
 
-    DB[(SQLite Database
-Employees
-WellBeingCheckins
-EnvironmentReadings
-RiskAlerts)]:::db
+    DB[(SQLite Database)] 
 
     API --> DB
-    Services --> DB
+    RiskSvc --> DB
     HR --> DashCtrl
 
-    classDef actor fill:#1d3557,stroke:#ffffff,color:#ffffff;
-    classDef db fill:#5e548e,stroke:#ffffff,color:#ffffff;
 ```
 
 Esse diagrama mostra o fluxo geral:
