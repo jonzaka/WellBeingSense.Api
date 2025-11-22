@@ -325,4 +325,9 @@ A ideia principal e mostrar que o uso combinado de dados subjetivos (como as pes
 
 ## 11. Autor
 
-Projeto desenvolvido por aluno de Engenharia de Software da FIAP, para fins academicos, na disciplina de Software Development C#.
+Projeto desenvolvido por:
+
+- Joel Barros - RM550378
+- Leonardo moreira - RM550988
+
+de Engenharia de Software da FIAP, para fins academicos, na disciplina de Software Development C#.
